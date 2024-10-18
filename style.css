@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: white;
+}
+
+
+/*     */
+header{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+}
+
+header nav .logo{
+    font-size: 30px;
+    align-items: center;
+    margin-left: 200px;
+    color: grey;
+}
+
+header nav .menu{
+    margin-top: 5px;
+    float: right;
+    margin-right: 300px;
+    font-size: 50px;
+    color: gray;
+}
+
+
+header nav .menu:hover{
+    color: brown;
+
+}
+
+
+/*      */
+
+.hero {
+    width: 100%;
+    display: flex;
+}
+
+.hero .img-1 {
+    width: 765px;
+}
+
+.circle-box{
+    border-radius: 50%;
+
+}
+.hero .circle {
+    width: 480px;
+    height: 700px;
+    /* border: 2px solid; */
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    right: 500px;
+
+}
+
+.hero .details{
+    width: 600px;
+    position: absolute;
+    top: 250px;
+    left: 690px;
+    /* background-color: brown; */
+}
+
+.hero .details h4{
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.hero .details h1{
+    font-size: 60px;
+    margin: 5px;
+}
+
+.hero .details p{
+    margin-top: 25px;
+    /* color: gray; */
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.more-btn{
+    width: 200px;
+    height: 50px;
+    font-size: 23px;
+    font-weight: normal;
+    background-color: rgb(14, 224, 224);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-btn:hover{
+    background-color: crimson;
+}
+
+
+/*      */
+.news{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+.news .news-details{
+    width: 500px;
+    float: left;
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+
+.news .news-details h6{
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    
+}
+
+.news .news-details h1{
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.news .news-details p{
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.news .right{
+    float: right;
+}
+
+.news .right .right-img-1{
+    width: 670px;
+    height: 670px;
+    
+}
+
+.news .right .right-img-2{
+    width: 600px;
+    position: absolute;
+    top: 830px;
+    right: 50px;
+    z-index: 2;
+}
+
+.side-img-1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1200px;
+    left: -150px;
+}
+
+.white-circle{
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    position: absolute;
+    top: 1240px;
+    left: -120px;
+
+}
+
+.side-up-img{
+    width: 130px;
+    position: absolute;
+    top: 1360px;
+    left: -5px;
+}
+
+
+/*        */
+
+.teaching-ai-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.teaching-ai-container .left-box .img-ai-1{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+    left: -60px;
+} 
+
+
+.teaching-ai-container .left-box .img-ai-2{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+}
+
+.teaching-ai-container .right-box .ai-card-box{
+    width: 500px;
+}
+
+.teaching-ai-container .right-box .ai-card-box h5{
+    font-size: 23px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.teaching-ai-container .right-box .ai-card-box h1{
+    font-size: 50px;
+}
+
+.teaching-ai-container .right-box .ai-card-box p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*          */
+.card-box-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-box-container .card-view{
+    width: 400px;
+}
+
+.card-box-container .card-view i{
+    padding: 30px;
+    font-size: 70px;
+    background-color: turquoise;
+    color: white;
+    border-radius: 50%;
+}
+
+
+.card-box-container .card-view h1{
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+
+.card-box-container .card-view p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+/*        */
+.right-decor-img-1{
+    position: absolute;
+    top: 2800px;
+    right: -100px;
+    z-index: 1;
+}
+
+.right-decor-img-2{
+    position: absolute;
+    top: 2830px;
+    right: 70px;
+    z-index: 2;
+}
+
+
+/*       */
+.robotic-news{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.robotic-news .left-part-box .left-robotic-img{
+    position: absolute;
+    top: 3000;
+    left: 200px;
+}
+
+.robotic-news .right-part-box{
+    position: relative;
+    top: 60px;
+    right: 100px;
+}
+
+.robotic-news .right-part-box .robotic-news-details{
+    width: 500px;
+}
+
+.robotic-news .right-part-box .robotic-news-details h5{
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.robotic-news .right-part-box .robotic-news-details h1{
+    font-size: 64px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.robotic-news .right-part-box .robotic-news-details p{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*        */
+.left-decor-img-1{
+    position: absolute;
+    top: 3400px;
+    left: -120px;
+    z-index: 1;
+}
+
+.left-decor-whiteDiv{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top: 3440px;
+    left: -100px;
+    z-index: 2;
+}
+
+.left-decor-img-2{
+    position: absolute;
+    top: 3390px;
+    left: 70px;
+    z-index: 3;
+}
+
+
+/*        */
+.worlds-technology{
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worlds-technology .left-part{
+    width: 400px;
+    float: left;
+    margin-left: 70px;
+}
+
+.worlds-technology .left-part h5{
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.worlds-technology .left-part h1{
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.worlds-technology .left-part p{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.worlds-technology .right-part{
+    float: right;
+    margin-left: 50px;
+}
+
+.worlds-technology .right-part .worlds-technology-img-2{
+    position: absolute;
+    top: 4000px;
+    right: 600px;
+}
+
+
+/*      */
+.technology-card-box{
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.technology-card-box .technology-card-view{
+    width: 237px;
+    padding: 30px;
+}
+
+.technology-card-box .technology-card-view h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.technology-card-box .technology-card-view p{
+    font-size: 20px;
+    color: white;
+}
+
+
+/*       */
+.futures-container{
+    width: 100%;
+    height: 50vh;
+    background-image: url("img/bg4.jpg");
+    color: white;
+    padding-top: 70px;
+}
+
+.futures-container h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.futures-container p{
+    width: 810px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+/* ###############  Footer  ###############  */
+
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 60PX;
+    
+}
+
+center {
+    padding-top: 50px;
+}
+
+footer .future-box .social-network{
+    margin-top: 30px;   
+    margin-bottom: 30px;
+
+}
+
+footer .future-box .social-network .social-btn{
+    font-size: 27px;
+    padding: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: brown;
+}
+
+footer img {
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
